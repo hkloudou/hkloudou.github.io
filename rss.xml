@@ -23,10 +23,68 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 28 Nov 2021 06:13:23 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 28 Nov 2021 06:35:24 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://hkloudou.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Mqtt Broker</title>
+                <link>https://hkloudou.github.io/software/communicate/mqtt-broker/</link>
+                <guid isPermaLink="true">https://hkloudou.github.io/software/communicate/mqtt-broker/</guid>
+                <pubDate>Sun, 28 Nov 2021 14:06:09 &#43;0800</pubDate>
+                
+                    <author>hkloudou@gmail.com (hkloudou)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;h2 id=&#34;broker&#34;&gt;broker&lt;/h2&gt;
+&lt;p&gt;内容&lt;/p&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/software/">software</category>
+                            
+                        
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/software/communicate/">communicate</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/broker/">broker</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/soft/">soft</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>h3 Linux Card</title>
@@ -65,8 +123,6 @@
                 
                 
                 
-                    
-                        
                     
                         
                             
