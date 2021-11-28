@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://hkloudou.github.io/"
-title = "骇客漏斗"
+title = "hkloudou"
 languageCode = "en"
 hasCJKLanguage = true
 # Copyright information (Markdown supported)
