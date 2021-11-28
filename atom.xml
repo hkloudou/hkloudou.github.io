@@ -2,9 +2,9 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title type="text">骇客漏斗</title>
+    <title type="text">hkloudou</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2021-11-28T06:35:24&#43;00:00</updated>
+    <updated>2021-11-28T06:41:30&#43;00:00</updated>
     <id>https://hkloudou.github.io/</id>
     <link rel="alternate" type="text/html" href="https://hkloudou.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://hkloudou.github.io/atom.xml" />
@@ -17,10 +17,193 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
         <entry>
+            <title type="text">empty</title>
+            <link rel="alternate" type="text/html" href="https://hkloudou.github.io/software/encrypt/empty/" />
+            <id>https://hkloudou.github.io/software/encrypt/empty/</id>
+            <updated>2021-11-28T14:41:03&#43;08:00</updated>
+            <published>2021-11-28T14:06:09&#43;08:00</published>
+            <author>
+                    <name>hkloudou</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>hkloudou@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">broker 内容</summary>
+            
+                <content type="html">&lt;h2 id=&#34;broker&#34;&gt;broker&lt;/h2&gt;
+&lt;p&gt;内容&lt;/p&gt;
+</content>
+            
+            
+            
+                
+                
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://hkloudou.github.io/software/" term="software" label="software" />
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://hkloudou.github.io/software/encrypt/" term="encrypt" label="encrypt" />
+                        
+                    
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hkloudou.github.io/tags/broker/" term="broker" label="broker" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://hkloudou.github.io/tags/soft/" term="soft" label="soft" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">empty</title>
+            <link rel="alternate" type="text/html" href="https://hkloudou.github.io/software/microservice/empty/" />
+            <id>https://hkloudou.github.io/software/microservice/empty/</id>
+            <updated>2021-11-28T14:41:03&#43;08:00</updated>
+            <published>2021-11-28T14:06:09&#43;08:00</published>
+            <author>
+                    <name>hkloudou</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>hkloudou@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">broker 内容</summary>
+            
+                <content type="html">&lt;h2 id=&#34;broker&#34;&gt;broker&lt;/h2&gt;
+&lt;p&gt;内容&lt;/p&gt;
+</content>
+            
+            
+            
+                
+                
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://hkloudou.github.io/software/" term="software" label="software" />
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://hkloudou.github.io/software/microservice/" term="microservice" label="microservice" />
+                        
+                    
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hkloudou.github.io/tags/broker/" term="broker" label="broker" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://hkloudou.github.io/tags/soft/" term="soft" label="soft" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">empty</title>
+            <link rel="alternate" type="text/html" href="https://hkloudou.github.io/software/notebook/empty/" />
+            <id>https://hkloudou.github.io/software/notebook/empty/</id>
+            <updated>2021-11-28T14:41:03&#43;08:00</updated>
+            <published>2021-11-28T14:06:09&#43;08:00</published>
+            <author>
+                    <name>hkloudou</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>hkloudou@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">broker 内容</summary>
+            
+                <content type="html">&lt;h2 id=&#34;broker&#34;&gt;broker&lt;/h2&gt;
+&lt;p&gt;内容&lt;/p&gt;
+</content>
+            
+            
+            
+                
+                
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://hkloudou.github.io/software/" term="software" label="software" />
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://hkloudou.github.io/software/notebook/" term="notebook" label="notebook" />
+                        
+                    
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hkloudou.github.io/tags/broker/" term="broker" label="broker" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://hkloudou.github.io/tags/soft/" term="soft" label="soft" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">Mqtt Broker</title>
             <link rel="alternate" type="text/html" href="https://hkloudou.github.io/software/communicate/mqtt-broker/" />
             <id>https://hkloudou.github.io/software/communicate/mqtt-broker/</id>
-            <updated>2021-11-28T14:34:50&#43;08:00</updated>
+            <updated>2021-11-28T14:41:03&#43;08:00</updated>
             <published>2021-11-28T14:06:09&#43;08:00</published>
             <author>
                     <name>hkloudou</name>
@@ -81,7 +264,7 @@
             <title type="text">h3 Linux Card</title>
             <link rel="alternate" type="text/html" href="https://hkloudou.github.io/hardware/linux/h3-linux-card/" />
             <id>https://hkloudou.github.io/hardware/linux/h3-linux-card/</id>
-            <updated>2021-11-28T14:34:50&#43;08:00</updated>
+            <updated>2021-11-28T14:41:03&#43;08:00</updated>
             <published>2021-11-28T12:35:37&#43;08:00</published>
             <author>
                     <name>hkloudou</name>

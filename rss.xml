@@ -7,7 +7,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>骇客漏斗</title>
+        <title>hkloudou</title>
         <link>https://hkloudou.github.io/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.87.0 https://gohugo.io/</generator>
@@ -23,10 +23,184 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 28 Nov 2021 06:35:24 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 28 Nov 2021 06:41:30 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://hkloudou.github.io/rss.xml" />
         
+        
+            <item>
+                <title>empty</title>
+                <link>https://hkloudou.github.io/software/encrypt/empty/</link>
+                <guid isPermaLink="true">https://hkloudou.github.io/software/encrypt/empty/</guid>
+                <pubDate>Sun, 28 Nov 2021 14:06:09 &#43;0800</pubDate>
+                
+                    <author>hkloudou@gmail.com (hkloudou)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;h2 id=&#34;broker&#34;&gt;broker&lt;/h2&gt;
+&lt;p&gt;内容&lt;/p&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/software/">software</category>
+                            
+                        
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/software/encrypt/">encrypt</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/broker/">broker</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/soft/">soft</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>empty</title>
+                <link>https://hkloudou.github.io/software/microservice/empty/</link>
+                <guid isPermaLink="true">https://hkloudou.github.io/software/microservice/empty/</guid>
+                <pubDate>Sun, 28 Nov 2021 14:06:09 &#43;0800</pubDate>
+                
+                    <author>hkloudou@gmail.com (hkloudou)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;h2 id=&#34;broker&#34;&gt;broker&lt;/h2&gt;
+&lt;p&gt;内容&lt;/p&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/software/">software</category>
+                            
+                        
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/software/microservice/">microservice</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/broker/">broker</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/soft/">soft</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>empty</title>
+                <link>https://hkloudou.github.io/software/notebook/empty/</link>
+                <guid isPermaLink="true">https://hkloudou.github.io/software/notebook/empty/</guid>
+                <pubDate>Sun, 28 Nov 2021 14:06:09 &#43;0800</pubDate>
+                
+                    <author>hkloudou@gmail.com (hkloudou)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;h2 id=&#34;broker&#34;&gt;broker&lt;/h2&gt;
+&lt;p&gt;内容&lt;/p&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/software/">software</category>
+                            
+                        
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/software/notebook/">notebook</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/broker/">broker</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/soft/">soft</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Mqtt Broker</title>
