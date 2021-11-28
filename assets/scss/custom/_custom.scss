@@ -1,0 +1,34 @@
+// 顶栏布局
+@import "header-layout";
+
+// 字体设定
+@import "font";
+
+// 简码设定
+@import "shortcodes";
+
+// 正文设定
+@import "post";
+
+// 订阅
+@import "subscription";
+
+// 友链
+@import "blogroll";
+
+// 卡牌
+@import "cards";
+
+// 一行多图
+@import "gallery";
+
+// 文章时效性提醒
+@import "expired-tip";
+
+// sw 更新提醒
+@import "sw-notification";
+
+html[data-theme="dark"] {
+    --waline-bgcolor: hsl(231, 14%, 10%);
+    --waline-bgcolor-light:  hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5);
+}

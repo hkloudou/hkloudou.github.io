@@ -9,7 +9,7 @@ hasCJKLanguage = true
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 
 # Name of theme
-theme = ["hugo-notice","meme"]
+theme = "meme"
 
 # `hugo new` automatically opened text editor
 newContentEditor = ""
@@ -218,13 +218,13 @@ uglyURLs = false
     #     post = "archive"
     [[menu.main]]
         url = "/tags/"
-        name = "标签"
+        name = "Tags"
         weight = 1
         pre = "internal"
         post = "tags"
     [[menu.main]]
         url = "/categories/"
-        name = "分类"
+        name = "Categories"
         weight = 2
         pre = "internal"
         post = "th"
@@ -598,7 +598,7 @@ uglyURLs = false
 
     jsonLD = true
     openGraph = true
-    twitterCards = false
+    twitterCards = true
     # ATTENTION: If you set twitterCards
     #            to `true`, be sure to
     #            enable openGraph also.
@@ -1207,25 +1207,25 @@ uglyURLs = false
     ######################################
     # Post Share
 
-    enablePostShare = false
+    enablePostShare = true
 
-    displayPostShare = false
+    displayPostShare = true
     # Note: *global settings*
     #       `share` in post’s Front Matter
     #       has a higher priority than here
 
     displayShareOnText = false
 
-    shareOnTwitter = false
-    shareOnFacebook = false
-    shareOnLinkedIn = false
-    shareOnTelegram = false
-    shareOnWeibo = false
-    shareOnDouban = false
-    shareOnQQ = false
-    shareOnQzone = false
+    shareOnTwitter = true
+    shareOnFacebook = true
+    shareOnLinkedIn = true
+    shareOnTelegram = true
+    shareOnWeibo = true
+    shareOnDouban = true
+    shareOnQQ = true
+    shareOnQzone = true
 
-    shareViaQRCode = false
+    shareViaQRCode = true
 
 
     ######################################

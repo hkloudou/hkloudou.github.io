@@ -27,31 +27,13 @@ jobs:
       with:
         hugo-version: '0.87.0'
         extended: true
-
     - name: Build
       run: hugo -D
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        # external_repository: hkloudou/hkloudou.github.io
-        # publish_branch: gh-pages
         publish_dir: ./public
-        # cname: marwin.cn
         commit_message: ${{ github.event.head_commit.message }}
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-    # - name: Deploy
-    #   env:
-    #     TZ: Asia/Shanghai
-    #     DEPLOY_REPO: hkloudou/hkloudou.github.io
-    #     DEPLOY_BRANCH: main
-    #     PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-    #   run: |
-    #     cd ./public && git init
-    #     git config user.name "hkloudou"
-    #     git config user.email "hkloudou@gmail.com"
-    #     git add .
-    #     git commit -m "Automated Deployment @ $(date '+%Y-%m-%d %H:%M:%S') ${TZ}"
-    #     git push --force --quiet "https://$PERSONAL_TOKEN@github.com/$DEPLOY_REPO" master:$DEPLOY_BRANCH
