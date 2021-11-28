@@ -1276,7 +1276,7 @@ uglyURLs = false
     # Minimal Footer
 
     enableMinimalFooter = false
-    enableVerticalBarStructure = false
+    enableVerticalBarStructure = true
     # Note: If you enable this, the
     #       categories or sections that
     #       displayed on the right will
@@ -1284,7 +1284,7 @@ uglyURLs = false
     #       categories or sections and are
     #       separated by vertical bar(|).
 
-    enableAboutPageMinimalFooter = false
+    enableAboutPageMinimalFooter = true
 
 
     ######################################
@@ -1323,9 +1323,9 @@ uglyURLs = false
     iconAnimation = true
 
     # Display links to Hugo and MemE?
-    displayPoweredBy = true
+    displayPoweredBy = false
 
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # Custom Footer (Markdown supported)
     customFooter = ""
@@ -1342,7 +1342,7 @@ uglyURLs = false
     #       https://busuanzi.ibruce.info/
 
     # Socials
-    enableSocials = true
+    enableSocials = false
     # Note: see data/Socials.toml
 
 
@@ -1364,8 +1364,8 @@ uglyURLs = false
 
     enableHighlight = true
 
-    enableOverflowY = true
-    maxHeight = 20
+    enableOverflowY = false
+    maxHeight = 32
     # Unit: em
 
     enableCopy = true
