@@ -49,7 +49,7 @@ uglyURLs = false
 
 # 类别
 [taxonomies]
-    #category = "categories"
+    # category = "categories"
     tag = "tags"
     series = "series"
 
@@ -1487,78 +1487,78 @@ uglyURLs = false
 ##########################################
 # 自行添加的多语言站点设置
 
-# 中文
-[languages.zh]
-    languageName = "🇨🇳"
-    contentDir = "content/zh"
-    weight = 1
+# # 中文
+# [languages.zh]
+#     languageName = "🇨🇳"
+#     contentDir = "content/zh"
+#     weight = 1
 
-# 英文
-[languages.en]
-    languageName = "🇺🇸"
-    contentDir = "content/en"
-    weight = 2
-    languageCode = "en-US"
-    hasCJKLanguage = false
-	title = "Guan Qirui's Blog"
-    copyright = "The article is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)."
-[languages.en.taxonomies]
-    #category = "categories"
-    #tag = "tags"
-[languages.en.menu]
-    #[[languages.en.menu.main]]
-    #    weight = 1
-    #    identifier = "search"
-    #    post = "search"
-    [[languages.en.menu.main]]
-        url = "/en/about/"
-        name = "About"
-        weight = 1
-        pre = "internal"
-        post = "user-circle"
-        identifier = "about"
-    [[languages.en.menu.main]]
-        weight = 2
-        identifier = "theme-switcher"
-    [[languages.en.menu.main]]
-        weight = 3
-        identifier = "lang-switcher"
-    [[languages.en.menu.socials]]
-        url = "https://github.com/guanqr"
-        name = "GitHub"
-        weight = 1
-        pre = "external"
-    [[languages.en.menu.socials]]
-        url = "https://www.cc98.org/user/id/583696"
-        name = "CC98"
-        weight = 2
-        pre = "external"
-    [[languages.en.menu.links]]
-        url = "mailto:guanqirui@zju.edu.cn"
-        name = "Email"
-        weight = 1
-        pre = "external"
-    [[languages.en.menu.links]]
-        url = "/en/atom.xml"
-        name = "Feed"
-        weight = 2
-        pre = "external"
-[languages.en.params]
-    siteDescription = "Guan Qirui's Blog in English."
-    listDateFormat = "January 2"
-    fontFamilyTitle = "'Amstelvar', serif"
-    fontFamilyHeadings = "'Amstelvar', serif"
-    fontFamilyCode = "'JetBrains Mono', monospace"
-    fontFamilyBody = "'Amstelvar', serif"
-    #fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    lineHeight = 1.618
-    enableJustify = false
-    enableSmallCap = true
-    enableEmphasisPoint = false
-    enableChinesePunctuationGlyphCorrection = false
-	mainSections = ["posts"]
-    homeLayout = "poetry"
-    ## 「诗意人生」
-    # 诗句，支持 Markdown
-    homePoetry = ["*To see a world in a grain of sand*","*And a heaven in a wild flower*","*Hold infinity in the palm of your hand*","*And eternity in an hour*"]
-    navHeight = "6em"
+# # 英文
+# [languages.en]
+#     languageName = "🇺🇸"
+#     contentDir = "content/en"
+#     weight = 2
+#     languageCode = "en-US"
+#     hasCJKLanguage = false
+# 	title = "Guan Qirui's Blog"
+#     copyright = "The article is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)."
+# [languages.en.taxonomies]
+#     #category = "categories"
+#     #tag = "tags"
+# [languages.en.menu]
+#     #[[languages.en.menu.main]]
+#     #    weight = 1
+#     #    identifier = "search"
+#     #    post = "search"
+#     [[languages.en.menu.main]]
+#         url = "/en/about/"
+#         name = "About"
+#         weight = 1
+#         pre = "internal"
+#         post = "user-circle"
+#         identifier = "about"
+#     [[languages.en.menu.main]]
+#         weight = 2
+#         identifier = "theme-switcher"
+#     [[languages.en.menu.main]]
+#         weight = 3
+#         identifier = "lang-switcher"
+#     [[languages.en.menu.socials]]
+#         url = "https://github.com/guanqr"
+#         name = "GitHub"
+#         weight = 1
+#         pre = "external"
+#     [[languages.en.menu.socials]]
+#         url = "https://www.cc98.org/user/id/583696"
+#         name = "CC98"
+#         weight = 2
+#         pre = "external"
+#     [[languages.en.menu.links]]
+#         url = "mailto:guanqirui@zju.edu.cn"
+#         name = "Email"
+#         weight = 1
+#         pre = "external"
+#     [[languages.en.menu.links]]
+#         url = "/en/atom.xml"
+#         name = "Feed"
+#         weight = 2
+#         pre = "external"
+# [languages.en.params]
+#     siteDescription = "Guan Qirui's Blog in English."
+#     listDateFormat = "January 2"
+#     fontFamilyTitle = "'Amstelvar', serif"
+#     fontFamilyHeadings = "'Amstelvar', serif"
+#     fontFamilyCode = "'JetBrains Mono', monospace"
+#     fontFamilyBody = "'Amstelvar', serif"
+#     #fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+#     lineHeight = 1.618
+#     enableJustify = false
+#     enableSmallCap = true
+#     enableEmphasisPoint = false
+#     enableChinesePunctuationGlyphCorrection = false
+# 	mainSections = ["posts"]
+#     homeLayout = "poetry"
+#     ## 「诗意人生」
+#     # 诗句，支持 Markdown
+#     homePoetry = ["*To see a world in a grain of sand*","*And a heaven in a wild flower*","*Hold infinity in the palm of your hand*","*And eternity in an hour*"]
+#     navHeight = "6em"

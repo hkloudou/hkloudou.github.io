@@ -48,7 +48,7 @@ uglyURLs = false
 
 # URL structure
 [permalinks]
-    categories = "/categories/:slug/"
+    # categories = "/categories/:slug/"
     tags = "/tags/:slug/"
 
 # Taxonomies
@@ -56,7 +56,7 @@ uglyURLs = false
     # category = "categories"
     # tag = "tags"
     tag = "tags"
-    series = "series"
+    # series = "series"
 # Modified date
 [frontmatter]
     lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
@@ -231,13 +231,13 @@ uglyURLs = false
     [[menu.main]]
         url = "/hardware/"
         name = "硬件"
-        weight = 4
+        weight = 3
         pre = "internal"
         post = "grav"
     [[menu.main]]
         url = "/software/"
         name = "软件"
-        weight = 3
+        weight = 4
         pre = "internal"
         post = "grav"
     [[menu.main]]
@@ -512,7 +512,8 @@ uglyURLs = false
 
     # mainSections = ["posts"]
 
-
+    mainSections = ["software","hardware"]
+    
     ######################################
     # Atom & RSS
 
@@ -1461,3 +1462,108 @@ uglyURLs = false
     fofVideoMp4 = ""
     # Note: you can leave these two
     #       options empty("")
+
+
+
+    ######################################
+    # 自定义页脚微信订阅功能
+    
+    # enableFooterSubscription = true
+    # subscriptionIcon = "wechat-brands"
+    # subscriptionQrCode = "/images/wechat-official-accounts.svg"
+
+
+    # ######################################
+    # # 自定义轮播图是否开启
+
+    # enableCarousel = true
+
+
+    # ######################################
+    # # 自定义文章时效性提醒
+
+    # # 是否开启
+    # enableExpiredTip = true
+    # # 是否显示（全局设置）
+    # displayPostExpiredTip = false
+    # # 说明：文章的 Front Matter 中的 
+    # # `displayExpiredTip` 的优先级高于此处
+
+##########################################
+# 自行添加的多语言站点设置
+
+# 中文
+# [languages.zh]
+#     languageName = "🇨🇳"
+#     contentDir = "content/zh"
+#     weight = 1
+
+# 英文
+# [languages.en]
+#     languageName = "🇺🇸"
+#     contentDir = "content/en"
+#     weight = 2
+#     languageCode = "en-US"
+#     hasCJKLanguage = false
+# 	title = "Guan Qirui's Blog"
+#     copyright = "The article is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)."
+# [languages.en.taxonomies]
+#     #category = "categories"
+#     #tag = "tags"
+# [languages.en.menu]
+#     #[[languages.en.menu.main]]
+#     #    weight = 1
+#     #    identifier = "search"
+#     #    post = "search"
+#     [[languages.en.menu.main]]
+#         url = "/en/about/"
+#         name = "About"
+#         weight = 1
+#         pre = "internal"
+#         post = "user-circle"
+#         identifier = "about"
+#     [[languages.en.menu.main]]
+#         weight = 2
+#         identifier = "theme-switcher"
+#     [[languages.en.menu.main]]
+#         weight = 3
+#         identifier = "lang-switcher"
+#     [[languages.en.menu.socials]]
+#         url = "https://github.com/guanqr"
+#         name = "GitHub"
+#         weight = 1
+#         pre = "external"
+#     [[languages.en.menu.socials]]
+#         url = "https://www.cc98.org/user/id/583696"
+#         name = "CC98"
+#         weight = 2
+#         pre = "external"
+#     [[languages.en.menu.links]]
+#         url = "mailto:guanqirui@zju.edu.cn"
+#         name = "Email"
+#         weight = 1
+#         pre = "external"
+#     [[languages.en.menu.links]]
+#         url = "/en/atom.xml"
+#         name = "Feed"
+#         weight = 2
+#         pre = "external"
+# [languages.en.params]
+#     siteDescription = "Guan Qirui's Blog in English."
+#     listDateFormat = "January 2"
+#     fontFamilyTitle = "'Amstelvar', serif"
+#     fontFamilyHeadings = "'Amstelvar', serif"
+#     fontFamilyCode = "'JetBrains Mono', monospace"
+#     fontFamilyBody = "'Amstelvar', serif"
+#     #fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+#     lineHeight = 1.618
+#     enableJustify = false
+#     enableSmallCap = true
+#     enableEmphasisPoint = false
+#     enableChinesePunctuationGlyphCorrection = false
+# 	mainSections = ["posts"]
+#     homeLayout = "poetry"
+#     ## 「诗意人生」
+#     # 诗句，支持 Markdown
+#     homePoetry = ["*To see a world in a grain of sand*","*And a heaven in a wild flower*","*Hold infinity in the palm of your hand*","*And eternity in an hour*"]
+#     navHeight = "6em"
