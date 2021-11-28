@@ -2,18 +2,80 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title type="text">Hugo Theme MemE</title>
+    <title type="text">骇客漏斗</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2021-11-28T05:53:10&#43;00:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2021-11-28T05:53:27&#43;00:00</updated>
+    <id>https://hkloudou.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://hkloudou.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://hkloudou.github.io/atom.xml" />
     <author>
-            <name>reuixiy</name>
-            <uri>https://example.com/</uri>
+            <name>hkloudou</name>
+            <uri>https://hkloudou.github.io/</uri>
             
-                <email>reuixiy@gmail.com</email>
+                <email>hkloudou@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
+        <entry>
+            <title type="text">h3 Linux Card</title>
+            <link rel="alternate" type="text/html" href="https://hkloudou.github.io/hardware/linux/h3-linux-card/" />
+            <id>https://hkloudou.github.io/hardware/linux/h3-linux-card/</id>
+            <updated>2021-11-28T13:52:54&#43;08:00</updated>
+            <published>2021-11-28T12:35:37&#43;08:00</published>
+            <author>
+                    <name>hkloudou</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>hkloudou@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">项目背景</summary>
+            
+                <content type="html">&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
+</content>
+            
+            
+            
+                
+                
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://hkloudou.github.io/hardware/" term="hardware" label="hardware" />
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://hkloudou.github.io/hardware/linux/" term="linux" label="linux" />
+                        
+                    
+                
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hkloudou.github.io/tags/linux/" term="linux" label="linux" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://hkloudou.github.io/tags/h3/" term="h3" label="h3" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
 </feed>

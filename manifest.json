@@ -1,6 +1,6 @@
 {
-    "name": "Hugo Theme MemE",
-    "short_name": "MemE",
+    "name": "荷戟独彷徨",
+    "short_name": "荷戟独彷徨",
     "icons": [
         {
             "src": "./icons/android-chrome-512x512.png",
@@ -12,5 +12,5 @@
     "background_color": "#fff",
     "display": "standalone",
     "orientation": "portrait-primary",
-    "start_url": "/"
+    "start_url": "./"
 }

@@ -7,26 +7,85 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo Theme MemE</title>
-        <link>https://example.com/</link>
+        <title>骇客漏斗</title>
+        <link>https://hkloudou.github.io/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.87.0 https://gohugo.io/</generator>
         
             <language>en</language>
         
         
-            <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+            <managingEditor>hkloudou@gmail.com (hkloudou)</managingEditor>
         
         
-            <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+            <webMaster>hkloudou@gmail.com (hkloudou)</webMaster>
         
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 28 Nov 2021 05:53:10 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 28 Nov 2021 05:53:27 &#43;0000</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://hkloudou.github.io/rss.xml" />
         
+        
+            <item>
+                <title>h3 Linux Card</title>
+                <link>https://hkloudou.github.io/hardware/linux/h3-linux-card/</link>
+                <guid isPermaLink="true">https://hkloudou.github.io/hardware/linux/h3-linux-card/</guid>
+                <pubDate>Sun, 28 Nov 2021 12:35:37 &#43;0800</pubDate>
+                
+                    <author>hkloudou@gmail.com (hkloudou)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/hardware/">hardware</category>
+                            
+                        
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://hkloudou.github.io/hardware/linux/">linux</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/linux/">linux</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://hkloudou.github.io/tags/h3/">h3</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
     </channel>
 </rss>
