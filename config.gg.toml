@@ -12,7 +12,7 @@ copyright = "本文采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses
 theme = "meme"
 
 # i18n
-defaultContentLanguage = "zh"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 # 是否复数化列表页面的标题
