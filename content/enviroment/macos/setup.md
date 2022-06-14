@@ -5,25 +5,32 @@ draft: true
 tags: ["broker","soft"]
 ---
 
-# 基础环境配置
 ### 忽略密码必须4位数的傻逼规定
-> https://macoshome.com/course/1542.html
+
+> <https://macoshome.com/course/1542.html>
+
 ``` sh
 pwpolicy -clearaccountpolicies
 ```
+
 ### brew
-> https://brew.sh
+
+> <https://brew.sh>
+
 ``` sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### 我的工具箱【各位看官自便】
-> git-crypt gpg 做些特殊场景的git加密
+## git-crypt gpg 做些特殊场景的git加密
+
 ``` sh
 brew install git-crypt gpg
 ```
-### 配置全局Git
-> https://www.jianshu.com/p/2b247923cb4b
+
+### 配置全局Git ignore
+
+> <https://www.jianshu.com/p/2b247923cb4b>
+
 ``` sh
 echo "# .gitignore_global
 ####################################
