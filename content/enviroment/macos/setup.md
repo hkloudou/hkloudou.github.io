@@ -21,7 +21,6 @@ pwpolicy -clearaccountpolicies
 > git-crypt gpg 做些特殊场景的git加密
 ``` sh
 brew install git-crypt gpg
-brew install hugo@0.87.0
 ```
 ### 配置全局Git
 > https://www.jianshu.com/p/2b247923cb4b
