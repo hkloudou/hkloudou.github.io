@@ -6,6 +6,7 @@ tags: ["broker","soft"]
 ---
 ## 安装tmignore
 
+> 系统要求： xcode4
 > <https://github.com/samuelmeuli/tmignore>
 
 ``` sh
