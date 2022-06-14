@@ -14,7 +14,7 @@ brew install samuelmeuli/tap/tmignore
 ``` sh
 echo `{
 	"searchPaths": ["~"],
-	"ignoredPaths": ["~/.Trash", "~/Applications", "~/Downloads", "~/Library", "~/Music/iTunes"]
+	"ignoredPaths": ["~/.Trash", "~/Applications", "~/Downloads", "~/Library", "~/Music/iTunes","~/.vscode",".DS_Store"]
 }`> ~/.config/tmignore/config.json
 ```
 
