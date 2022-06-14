@@ -241,6 +241,12 @@ uglyURLs = false
         pre = "internal"
         post = "grav"
     [[menu.main]]
+        url = "/enviroment/"
+        name = "环境"
+        weight = 4
+        pre = "internal"
+        post = "grav"
+    [[menu.main]]
         url = "/about/"
         name = "About"
         weight = 6
