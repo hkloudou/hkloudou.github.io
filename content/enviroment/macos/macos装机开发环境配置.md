@@ -16,3 +16,37 @@ pwpolicy -clearaccountpolicies
 ``` sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+### 我的工具箱【各位看官自便】
+> git-crypt gpg 做些特殊场景的git加密
+``` sh
+install git-crypt gpg
+```
+### 配置全局Git
+``` sh
+echo "# .gitignore_global
+####################################
+######## OS generated files ########
+####################################
+.DS_Store
+.DS_Store?
+*.swp
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+####################################
+############# packages #############
+####################################
+*.7z  
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip">~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+```
