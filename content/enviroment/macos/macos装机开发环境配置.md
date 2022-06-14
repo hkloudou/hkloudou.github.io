@@ -23,6 +23,7 @@ pwpolicy -clearaccountpolicies
 install git-crypt gpg
 ```
 ### 配置全局Git
+> https://www.jianshu.com/p/2b247923cb4b
 ``` sh
 echo "# .gitignore_global
 ####################################
