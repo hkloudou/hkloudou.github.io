@@ -1,5 +1,5 @@
 ---
-title: "macos装机开发环境配置"
+title: "tmignore"
 date: 2021-11-28T14:06:09+08:00
 draft: true
 tags: ["broker","soft"]
