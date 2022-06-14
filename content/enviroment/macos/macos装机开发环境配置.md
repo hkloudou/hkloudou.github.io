@@ -1,6 +1,7 @@
 ---
 title: "setup"
 date: 2021-11-28T14:06:09+08:00
+name: xxx
 draft: true
 tags: ["broker","soft"]
 ---
@@ -20,7 +21,8 @@ pwpolicy -clearaccountpolicies
 ### 我的工具箱【各位看官自便】
 > git-crypt gpg 做些特殊场景的git加密
 ``` sh
-install git-crypt gpg
+brew install git-crypt gpg
+brew install hugo@0.87.0
 ```
 ### 配置全局Git
 > https://www.jianshu.com/p/2b247923cb4b
