@@ -31,13 +31,17 @@ find "`echo ~`/project" -name .DS_Store | xargs rm -rf
 ## 添加系统级跳过
 
 ``` sh
-sudo tmutil addexclusion -p "`echo ~`/.Trash" "`echo ~`/Downloads"
+sudo tmutil addexclusion -p "`echo ~`/.Trash" "`echo ~`/Downloads" "`echo ~`/Downloads"
 
-sudo tmutil addexclusion -p "`echo ~`/.npm"
+# devtool cache
+sudo tmutil addexclusion -p `echo ~`/.cache `echo ~`/.npm `echo ~`/.node-gpy `echo ~`/.gradle `echo ~`/.dartserver `echo ~`/.pub-cache
 
+# xcode
+sudo tmutil addexclusion -p "/Applications/Xcode.app" "/Applications/Xcode.appdownload"
+# golang
 tmutil addexclusion -v "`echo go env GOMODCACHE`"
 ```
-
+<!-- ~/Library/Application Support/Caches -->
 ## 配置ignore
 
 ``` sh
