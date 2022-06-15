@@ -31,17 +31,13 @@ find "`echo ~`/project" -name .DS_Store | xargs rm -rf
 ## 添加系统级跳过
 
 ``` sh
-sudo tmutil addexclusion -p "`echo ~`/.Trash" "`echo ~`/Downloads" "`echo ~`/Downloads"
-
-# devtool cache
-sudo tmutil addexclusion -p `echo ~`/.cache `echo ~`/.npm `echo ~`/.node-gpy `echo ~`/.gradle `echo ~`/.dartserver `echo ~`/.pub-cache
-
-# xcode
-sudo tmutil addexclusion -p "/Applications/Xcode.app" "/Applications/Xcode.appdownload"
-# golang
-tmutil addexclusion -v "`echo go env GOMODCACHE`"
+U=~
+IG_SYSTEM=("$U/.Trash" "$U/Downloads")
+IG_APP=("/Applications/Xcode.app" "/Applications/Xcode.appdownload")
+IG_DEV=("`go env GOMODCACHE`" "$U/.cache" "$U/.npm" "$U/.node-gpy" "$U/.gradle" "$U/.dartserver" "$U/.pub-cache")
+sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_DEV
+# sudo tmutil removeexclusion -p $IG_SYSTEM $IG_APP $IG_DEV
 ```
-<!-- ~/Library/Application Support/Caches -->
 ## 配置ignore
 
 ``` sh
