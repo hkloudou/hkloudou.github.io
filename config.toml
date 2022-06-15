@@ -1051,9 +1051,9 @@ uglyURLs = false
     #      则可留空品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = ""
+    # fontFamilySiteBrand = ""
     # 菜单栏
-    fontFamilyMenu = ""
+    # fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题
     # fontFamilyTitle = "'Amstelvar', 'Noto Serif SC', serif"
     # 分节标题、目录标题
