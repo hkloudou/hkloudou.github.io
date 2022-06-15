@@ -32,11 +32,11 @@ find "`echo ~`/project" -name .DS_Store | xargs rm -rf
 
 ``` sh
 U=~
-CONTAINER=$U/Library/Containers
-CACHE=$U/Caches
+CO1=$U/Library/Containers
+CA1=$U/Caches
 IG_SYSTEM=("$U/.Trash" "$U/Downloads" "$U/Pictures/Photos Library.photoslibrary")
 IG_APP=("/Applications/Xcode.app" "/Applications/Xcode.appdownload")
-IG_CACHE=("$CONTAINER/com.apple.Safari/Data/Library/Caches" "$CACHE/com.apple.Music")
+IG_CACHE=("$CO1/com.apple.Safari/Data/Library/Caches" "$CA1/com.apple.Music")
 IG_DEV=("`go env GOMODCACHE`" "$U/.cache" "$U/.npm" "$U/.node-gpy" "$U/.gradle" "$U/.dartserver" "$U/.pub-cache")
 sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_DEV $IG_CACHE
 # sudo tmutil removeexclusion -p $IG_SYSTEM $IG_APP $IG_DEV $IG_CACHE
