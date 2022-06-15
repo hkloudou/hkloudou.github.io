@@ -34,7 +34,7 @@ find "`echo ~`/project" -name .DS_Store | xargs rm -rf
 U=~
 CT1=$U/Library/Containers
 CA1=$U/Caches
-IG_SYSTEM=("$U/.Trash" "$U/Downloads" "$U/Pictures/Photos Library.photoslibrary")
+IG_SYSTEM=("$U/.Trash" "$U/Downloads" "$U/Downloads" "$U/Pictures/Photos Library.photoslibrary")
 IG_APP=("/Applications/Xcode.app" "$U/Library/Developer/Xcode" "$U/Library/Developer/CoreSimulator" "$U/Library/Developer/CoreSimulator" "/Applications/Xcode.appdownload" "/Applications/Android Studio.app")
 IG_CACHE=("$CT1/com.apple.Safari/Data/Library/Caches" "$CA1/com.apple.Music" "$CT1/com.apple.podcasts" "$CT1/com.apple.podcasts.widget")
 IG_DEV=("$U/Library/Android" "$U/.cache" "$U/.npm" "$U/.node-gpy" "$U/.gradle" "$U/.dartserver" "$U/.pub-cache")
