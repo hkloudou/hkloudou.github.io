@@ -107,9 +107,9 @@ uglyURLs = false
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
-    website = "https://io-oi.me/"
+    website = "https://hkloudou.gtithub.io/"
     # Twitter
-    twitter = "reuixiy"
+    # twitter = "reuixiy"
 
 # Related content
 [related]
@@ -278,7 +278,7 @@ uglyURLs = false
 
     enableHeader = true
 
-    enableHeaderAutoHide = true
+    enableHeaderAutoHide = false
     # Note: works for header layout flex only
 
     displayHeaderInHome = true
