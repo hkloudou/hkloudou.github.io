@@ -6,11 +6,36 @@ tags: ["broker","soft"]
 ---
 ## 安装tmignore
 
-> 系统要求： xcode4
+> 系统要求： xcode
 > <https://github.com/samuelmeuli/tmignore>
+
+方式一：需要Xcode，不推荐
 
 ``` sh
 brew install samuelmeuli/tap/tmignore
+```
+
+方式二：直接下载bin
+
+``` sh
+curl -L https://github.com/samuelmeuli/tmignore/releases/download/v1.2.2/tmignore > /usr/local/bin/tmignore
+chmod u+x /usr/local/bin/tmignore
+```
+
+## 快速删除Ds
+
+``` sh
+find "`echo ~`/project" -name .DS_Store | xargs rm -rf
+```
+
+## 添加系统级跳过
+
+``` sh
+sudo tmutil addexclusion -p "`echo ~`/.Trash" "`echo ~`/Downloads"
+
+sudo tmutil addexclusion -p "`echo ~`/.npm"
+
+tmutil addexclusion -v "`echo go env GOMODCACHE`"
 ```
 
 ## 配置ignore
@@ -18,8 +43,7 @@ brew install samuelmeuli/tap/tmignore
 ``` sh
 mkdir -p ~/.config/tmignore/
 echo '{
- "searchPaths": ["~"],
- "ignoredPaths": ["~/.Trash", "~/Applications", "~/Downloads", "~/Library", "~/Music/iTunes","~/.vscode","~/.npm",".DS_Store","node_modules"]
+    "searchPaths": ["~"]
 }'> ~/.config/tmignore/config.json
 ```
 
