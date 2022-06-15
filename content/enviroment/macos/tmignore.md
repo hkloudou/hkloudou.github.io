@@ -34,17 +34,22 @@ find "`echo ~`/project" -name .DS_Store | xargs rm -rf
 U=~
 CT1=$U/Library/Containers
 CA1=$U/Caches
-IG_Containers_podcast=("$U/com.apple.podcasts" "$U/com.apple.podcasts.MacPodcastsStorageExtension" "$U/com.apple.podcasts.MacQuicklookExtension" "$U/com.apple.podcasts.PodcastsNotificationExtension" "$U/com.apple.podcasts.widget")
-IG_Containers_music=("$U/com.apple.Music.MusicCacheExtension" "$U/com.apple.Music.MusicStorageExtension")
-IG_Containers_notimportant=$("$U/NewsToday2" "$U/NewsTodayIntents" "$U/StocksWidget" "$U/StocksDetailIntents")
+
+IG_Containers_podcast=("$CT1/com.apple.podcasts" "$CT1/com.apple.podcasts.MacPodcastsStorageExtension" "$CT1/com.apple.podcasts.MacQuicklookExtension" "$CT1/com.apple.podcasts.PodcastsNotificationExtension" "$CT1/com.apple.podcasts.widget")
+IG_Containers_music=("$CT1/com.apple.Music.MusicCacheExtension" "$CT1/com.apple.Music.MusicStorageExtension")
+IG_Containners=($IG_Containers_podcast $IG_Containers_music)
+
 IG_SYSTEM=("$U/.Trash" "$U/Downloads" "$U/Music" "$U/Movies" "$U/Pictures")
+
 IG_APP_XCODE=("/Applications/Xcode.app" "$U/Library/Developer/CoreSimulator" "$U/Library/Developer/CoreSimulator" "/Applications/Xcode.appdownload")
 IG_APP_ANDROID=("/Applications/Android Studio.app" "$U/Library/Android")
 IG_APP=($IG_APP_XCODE $IG_APP_ANDROID)
+
 IG_CACHE_DEV=("$U/.cache" "$U/.npm" "$U/.node-gpy" "$U/.gradle" "$U/.dartserver" "$U/.pub-cache")
 IG_CACHE_APP=("$CT1/com.apple.Safari/Data/Library/Caches" "$CT1/com.apple.podcasts/Data/Library/Caches/com.apple.podcasts")
 IG_CACHE=($IG_CACHE_DEV $IG_CACHE_APP)
-sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_CACHE "`go env GOMODCACHE`" "`go env GOCACHE`"
+echo $IG_SYSTEM $IG_APP $IG_CACHE $IG_Containners "`go env GOMODCACHE`" "`go env GOCACHE`"
+sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_CACHE $IG_Containners "`go env GOMODCACHE`" "`go env GOCACHE`"
 # 删除常见开发环境缓存（日常安全删除）
 # sudo rm -rf $IG_CACHE "`go env GOMODCACHE`" "`go env GOCACHE`"
 
