@@ -46,7 +46,7 @@ IG_APP_ANDROID=("/Applications/Android Studio.app" "$U/Library/Android")
 IG_APP=($IG_APP_XCODE $IG_APP_ANDROID)
 
 IG_CACHE_DEV=("$U/.cache" "$U/.npm" "$U/.node-gpy" "$U/.gradle" "$U/.dartserver" "$U/.pub-cache")
-IG_CACHE_APP=("$CT1/com.apple.Safari/Data/Library/Caches" "$CT1/com.apple.podcasts/Data/Library/Caches/com.apple.podcasts")
+IG_CACHE_APP=("$CT1/com.apple.Safari/Data/Library/Caches")
 IG_CACHE=($IG_CACHE_DEV $IG_CACHE_APP)
 echo $IG_SYSTEM $IG_APP $IG_CACHE $IG_Containners "`go env GOMODCACHE`" "`go env GOCACHE`"
 sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_CACHE $IG_Containners "`go env GOMODCACHE`" "`go env GOCACHE`"
