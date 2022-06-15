@@ -1071,7 +1071,7 @@ uglyURLs = false
     # 主体
     fontFamilyBody = "'San Francisco', Helvetica, Arial, san-serif,'Microsoft YaHei'"
     
-    fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"
+    # fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"
 
     fontSize = 16
 
