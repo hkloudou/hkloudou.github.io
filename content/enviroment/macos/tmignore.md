@@ -32,12 +32,13 @@ find "`echo ~`/project" -name .DS_Store | xargs rm -rf
 
 ``` sh
 U=~
-IG_SYSTEM=("$U/.Trash" "$U/Downloads")
+IG_SYSTEM=("$U/.Trash" "$U/Downloads" "$U/Pictures/Photos Library.photoslibrary")
 IG_APP=("/Applications/Xcode.app" "/Applications/Xcode.appdownload")
 IG_DEV=("`go env GOMODCACHE`" "$U/.cache" "$U/.npm" "$U/.node-gpy" "$U/.gradle" "$U/.dartserver" "$U/.pub-cache")
 sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_DEV
 # sudo tmutil removeexclusion -p $IG_SYSTEM $IG_APP $IG_DEV
 ```
+
 ## 配置ignore
 
 ``` sh
