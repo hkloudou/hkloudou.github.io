@@ -6,7 +6,6 @@ tags: ["broker","soft"]
 ---
 ## 安装tmignore
 
-> 系统要求： xcode
 > <https://github.com/samuelmeuli/tmignore>
 
 方式一：需要Xcode，不推荐
@@ -18,7 +17,7 @@ brew install samuelmeuli/tap/tmignore
 方式二：直接下载bin
 
 ``` sh
-curl -L https://github.com/samuelmeuli/tmignore/releases/download/v1.2.2/tmignore > /usr/local/bin/tmignore
+curl -L https://github.com/hkloudou/tmignore/releases/download/v1.2.6/tmignore > /usr/local/bin/tmignore
 chmod u+x /usr/local/bin/tmignore
 ```
 
@@ -46,7 +45,7 @@ IG_APP_ANDROID=("/Applications/Android Studio.app" "$U/Library/Android")
 IG_APP=($IG_APP_XCODE $IG_APP_ANDROID)
 
 IG_CACHE_DEV=("$U/.cache" "$U/.npm" "$U/.node-gpy" "$U/.gradle" "$U/.dartserver" "$U/.pub-cache")
-IG_CACHE_APP=("$CT1/com.apple.Safari/Data/Library/Caches")
+IG_CACHE_APP=("$CT1/com.apple.Safari/Data/Library/Caches" "$U/Library/Caches/com.apple.dt.Xcode")
 IG_CACHE=($IG_CACHE_DEV $IG_CACHE_APP)
 echo $IG_SYSTEM $IG_APP $IG_CACHE $IG_Containners "`go env GOMODCACHE`" "`go env GOCACHE`"
 sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_CACHE $IG_Containners "`go env GOMODCACHE`" "`go env GOCACHE`"
@@ -59,7 +58,7 @@ sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_CACHE $IG_Containners "`go en
 ## 配置ignore
 
 > 1. 自动扫描 ~ 目录里的gitignore 文件，并自动排除到tmutil 工具，注意，这里不显示到控制台，所以需要依赖tmignore的内存文件 ~/Library/Caches/tmignore
-> 2. 通过分析源码：<https://github.com/samuelmeuli/tmignore> 我们得知：目前功能比较基础
+> 2. 通过分析源码：<https://github.com/hkloudou/tmignore> 我们得知：目前功能比较基础
 > 3. ignoredPaths用来配置忽略扫描的目录
 
 ``` sh

@@ -13,12 +13,19 @@ tags: ["broker","soft"]
 pwpolicy -clearaccountpolicies
 ```
 
-### brew
-
-> <https://brew.sh>
+### 基础组件
 
 ``` sh
+# bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# cocoapods
+sudo gem update
+sudo gem install cocoapods
+
+# flutter
+cd ~/Developments && git clone https://github.com/flutter/flutter.git -b stable
+flutter precache
 ```
 
 ## git-crypt gpg 做些特殊场景的git加密
