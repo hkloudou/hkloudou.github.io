@@ -39,7 +39,7 @@ IG_Containers_podcast=("$CT1/com.apple.podcasts" "$CT1/com.apple.podcasts.MacPod
 IG_Containers_music=("$CT1/com.apple.Music.MusicCacheExtension" "$CT1/com.apple.Music.MusicStorageExtension")
 IG_Containners=($IG_Containers_podcast $IG_Containers_music)
 
-IG_SYSTEM=("$U/.Trash" "$U/Downloads" "$U/Music" "$U/Movies" "$U/Pictures")
+IG_SYSTEM=("$U/.Trash" "$U/Downloads" "$U/Music" "$U/Movies" "$U/Pictures" "$U/Developments")
 
 IG_APP_XCODE=("/Applications/Xcode.app" "$U/Library/Developer/CoreSimulator" "$U/Library/Developer/CoreSimulator" "/Applications/Xcode.appdownload")
 IG_APP_ANDROID=("/Applications/Android Studio.app" "$U/Library/Android")
