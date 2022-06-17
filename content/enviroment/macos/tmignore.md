@@ -6,16 +6,6 @@ tags: ["broker","soft"]
 ---
 ## 安装tmignore
 
-> <https://github.com/samuelmeuli/tmignore>
-
-方式一：需要Xcode，不推荐
-
-``` sh
-brew install samuelmeuli/tap/tmignore
-```
-
-方式二：直接下载bin
-
 ``` sh
 curl -L https://github.com/hkloudou/tmignore/releases/download/v1.2.6/tmignore > /usr/local/bin/tmignore
 chmod u+x /usr/local/bin/tmignore
