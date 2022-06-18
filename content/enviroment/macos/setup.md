@@ -20,12 +20,19 @@ pwpolicy -clearaccountpolicies
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # cocoapods
-sudo gem update
-sudo gem install cocoapods
+> 1.8.4是网上建议，但是flutter 最小要求是1.9.0
+> 可能会有个神奇的bug，考虑用brew绕坑
+``` sh
+brew install cocoapods
+```
 
 # flutter
-cd ~/Developments && git clone https://github.com/flutter/flutter.git -b stable
+
+cd ~/Developments && git clone <https://github.com/flutter/flutter.git> -b stable
 flutter precache
+
+# golang
+
 ```
 
 ## git-crypt gpg 做些特殊场景的git加密
