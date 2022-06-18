@@ -7,7 +7,7 @@ tags: ["broker","soft"]
 ## 安装tmignore
 
 ``` sh
-curl -L https://github.com/hkloudou/tmignore/releases/download/v1.2.6/tmignore > /usr/local/bin/tmignore
+curl -L https://github.com/hkloudou/tmignore/releases/download/v1.2.13/tmignore > /usr/local/bin/tmignore
 chmod u+x /usr/local/bin/tmignore
 ```
 
