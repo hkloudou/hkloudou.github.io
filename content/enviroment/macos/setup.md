@@ -24,9 +24,7 @@ pwpolicy -clearaccountpolicies
 # 可能会有个神奇的bug，考虑用brew绕坑
 brew install cocoapods
 
-
 # flutter
-
 cd ~/Developments && git clone <https://github.com/flutter/flutter.git> -b stable
 flutter precache
 
