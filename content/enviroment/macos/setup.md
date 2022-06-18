@@ -7,8 +7,6 @@ tags: ["broker","soft"]
 
 ### 忽略密码必须4位数的傻逼规定
 
-> <https://macoshome.com/course/1542.html>
-
 ``` sh
 pwpolicy -clearaccountpolicies
 ```
@@ -25,11 +23,20 @@ pwpolicy -clearaccountpolicies
 brew install cocoapods
 
 # flutter
-cd ~/Developments && git clone <https://github.com/flutter/flutter.git> -b stable
+mkdir -p ~/Developments && cd ~/Developments && git clone <https://github.com/flutter/flutter.git> -b stable
 flutter precache
 
 # golang
 
+```
+
+## 安装
+
+``` sh
+# 只在新系统做吧，把golang bin 和flutter 的bin加入到gopath
+U=~
+echo "export PATH=\$PATH:$U/go/bin" > ~/.zshrc
+echo "export PATH=\$PATH:$U/Developments/flutter/bin" >> ~/.zshrc
 ```
 
 ## git-crypt gpg 做些特殊场景的git加密
