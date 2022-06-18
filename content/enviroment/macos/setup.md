@@ -20,11 +20,10 @@ pwpolicy -clearaccountpolicies
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # cocoapods
-> 1.8.4是网上建议，但是flutter 最小要求是1.9.0
-> 可能会有个神奇的bug，考虑用brew绕坑
-``` sh
+# 1.8.4是网上建议，但是flutter 最小要求是1.9.0
+# 可能会有个神奇的bug，考虑用brew绕坑
 brew install cocoapods
-```
+
 
 # flutter
 
