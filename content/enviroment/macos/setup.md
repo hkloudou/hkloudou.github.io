@@ -13,9 +13,39 @@ pwpolicy -clearaccountpolicies
 # 彻底隐藏.DS_Store
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE # FALSE 是恢复
 # 删除现有 .DS_Store 这里如果用xrgs rm 队友个bug：无法删除带空格的路径
-find "`echo ~`/project" -name .DS_Store -delete
+find "`echo ~`/project" -name .DS_Store -type f -delete
+# sudo find / -name ".DS_Store" -depth -exec rm {} \;
 # 检查
-find "`echo ~`/project" -name .DS_Store | xargs echo
+find "`echo ~`/project" -name .DS_Store -type f | xargs echo
+
+#Dock 配置
+defaults write com.apple.Dock magnification -bool no
+defaults write com.apple.dock tilesize -int 44
+defaults write com.apple.dock largesize -int 48
+defaults write com.apple.Dock autohide -bool yes
+defaults write com.apple.Dock showhide -bool yes
+defaults write com.apple.dock orientation bottom
+defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.dock expose-animation-duration -float 0.12
+killall Dock
+
+#Finder
+# https://blog.csdn.net/lovechris00/article/details/113280758
+# defaults export com.apple.finder -
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+
+# Screencapture
+mkdir -p ~/Pictures/Screenshots
+defaults write com.apple.screencapture location ~/Pictures/Screenshots
+killall SystemUIServer
+
+# Dashboard
+# defaults write com.app.dashboard mcs-dis
+
+
+#TrackPad
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool YES
+killall SystemUIServer
 ```
 
 ### 基础组件
