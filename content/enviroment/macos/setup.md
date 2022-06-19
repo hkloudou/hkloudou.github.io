@@ -43,7 +43,7 @@ killall SystemUIServer
 # defaults write com.app.dashboard mcs-dis
 
 
-#TrackPad
+#TrackPad 开三指拖拽，相信我，这个功能最重要
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool YES
 killall SystemUIServer
 ```

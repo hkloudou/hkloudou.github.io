@@ -33,7 +33,7 @@
 	<key>TrackpadScroll</key>
 	<true/>
 	<key>TrackpadThreeFingerDrag</key>
-	<true/>
+	<false/>
 	<key>TrackpadThreeFingerHorizSwipeGesture</key>
 	<integer>0</integer>
 	<key>TrackpadThreeFingerTapGesture</key>
