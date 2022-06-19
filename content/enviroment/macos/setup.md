@@ -7,25 +7,24 @@ tags: ["broker","soft"]
 
 ``` sh
 cd $HOME
-rm -rf .starter && mkdir -p .starter
-curl -sSL https://github.com/hkloudou/macstarter/archive/cb4d4c9539fb8884d28320449492d4c2954e1bab.tar.gz | tar xz --strip 1 -C .starter
+rm -rf ~/.starter && mkdir -p ~/.starter
+curl -sSL https://github.com/hkloudou/macstarter/archive/cb4d4c9539fb8884d28320449492d4c2954e1bab.tar.gz | tar xz --strip 1 -C ~/.starter
 
 if [ "1" -ne $(defaults read com.apple.dock autohide) ]; then
-   sh .starter/system/env.sh
-   sh .starter/system/trackpad.sh
-   sh .starter/system/dock.sh
-   sh .starter/system/finder.sh
-   sh .starter/system/screenshot.sh
+   sh ~/.starter/system/env.sh
+   sh ~/.starter/system/trackpad.sh
+   sh ~/.starter/system/dock.sh
+   sh ~/.starter/system/finder.sh
+   sh ~/.starter/system/screenshot.sh
 fi
 
-sh .starter/installers/go.sh
-sh .starter/installers/flutter.sh
+sh ~/.starter/installers/go.sh
+sh ~/.starter/installers/flutter.sh
 
-sh .starter/installers/xcode.sh
-sh .starter/installers/tmignore.sh
-sh .starter/installers/clashx.sh
+sh ~/.starter/installers/xcode.sh
+sh ~/.starter/installers/tmignore.sh
+sh ~/.starter/installers/clashx.sh
 
-sh .starter/apps/git.sh
-rm -rf .starter
-
+sh ~/.starter/apps/git.sh
+rm -rf ~/.starter
 ```
