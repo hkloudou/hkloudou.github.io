@@ -8,7 +8,7 @@ tags: ["broker","soft"]
 ``` sh
 cd $HOME
 rm -rf ~/.starter && mkdir -p ~/.starter
-curl -sSL https://github.com/hkloudou/macstarter/archive/cb4d4c9539fb8884d28320449492d4c2954e1bab.tar.gz | tar xz --strip 1 -C ~/.starter
+curl -sSL https://github.com/hkloudou/macstarter/archive/90dcb49cbdda79b21bd5b8745a6068234e5b7ae3.tar.gz | tar xz --strip 1 -C ~/.starter
 
 if [ "1" -ne $(defaults read com.apple.dock autohide) ]; then
    sh ~/.starter/system/env.sh
