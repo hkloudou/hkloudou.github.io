@@ -11,12 +11,6 @@ curl -L https://github.com/hkloudou/tmignore/releases/download/v1.2.13/tmignore 
 chmod u+x /usr/local/bin/tmignore
 ```
 
-## 快速删除Ds
-
-``` sh
-find "`echo ~`/project" -name .DS_Store | xargs rm -rf
-```
-
 ## 添加系统级跳过
 
 ``` sh
@@ -54,7 +48,7 @@ sudo tmutil addexclusion -p $IG_SYSTEM $IG_APP $IG_CACHE $IG_Containners "`go en
 ``` sh
 mkdir -p ~/.config/tmignore/
 echo '{
-    "searchPaths": ["~"],
+    "searchPaths": ["~/project"],
     "ignoredPaths": ["~/.Trash", "~/Applications", "~/Downloads", "~/Library", "~/Music/iTunes", "~/Music/Music", "~/Pictures/Photos Library.photoslibrary"]
 }'> ~/.config/tmignore/config.json
 ```

@@ -5,10 +5,16 @@ draft: true
 tags: ["broker","soft"]
 ---
 
-### 忽略密码必须4位数的傻逼规定
+### 优化mac上的傻逼逻辑
 
 ``` sh
+# 忽略密码必须4位数的傻逼规定
 pwpolicy -clearaccountpolicies
+# 彻底隐藏.DS_Store
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE # FALSE 是恢复
+
+# 删除现有 .DS_Store
+find "`echo ~`/project" -name .DS_Store | xargs rm -rf
 ```
 
 ### 基础组件
@@ -16,27 +22,16 @@ pwpolicy -clearaccountpolicies
 ``` sh
 # bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 # cocoapods
-# 1.8.4是网上建议，但是flutter 最小要求是1.9.0
+# gem 安装的时候1.8.4是网上建议，但是flutter 最小要求是1.9.0
 # 可能会有个神奇的bug，考虑用brew绕坑
 brew install cocoapods
-
 # flutter
-mkdir -p ~/Developments && cd ~/Developments && git clone <https://github.com/flutter/flutter.git> -b stable
+mkdir -p ~/Developments && cd ~/Developments && git clone https://github.com/flutter/flutter.git -b stable
 flutter precache
-
-# golang
-
-```
-
-## 安装
-
-``` sh
 # 只在新系统做吧，把golang bin 和flutter 的bin加入到gopath
-U=~
-echo "export PATH=\$PATH:$U/go/bin" > ~/.zshrc
-echo "export PATH=\$PATH:$U/Developments/flutter/bin" >> ~/.zshrc
+echo "export PATH=\$PATH:`echo ~`/go/bin" > ~/.zshrc
+echo "export PATH=\$PATH:`echo ~`/Developments/flutter/bin" >> ~/.zshrc
 ```
 
 ## git-crypt gpg 做些特殊场景的git加密
@@ -63,16 +58,10 @@ echo "# .gitignore_global
 Icon?
 ehthumbs.db
 Thumbs.db
-####################################
-############# packages #############
-####################################
-*.7z  
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip">~/.gitignore_global
+
+# node
+bower_components/
+node_modules/
+">~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ```
