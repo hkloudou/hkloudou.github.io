@@ -11,7 +11,7 @@ tags: ["broker","soft"]
 # 忽略密码必须4位数的傻逼规定
 pwpolicy -clearaccountpolicies
 # 彻底隐藏.DS_Store
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE # FALSE 是恢复
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 # 删除现有 .DS_Store 这里如果用xrgs rm 队友个bug：无法删除带空格的路径
 find "`echo ~`/" -name .DS_Store -type f -delete
 # sudo find / -name ".DS_Store" -depth -exec rm {} \;
