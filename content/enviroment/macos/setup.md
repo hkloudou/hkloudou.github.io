@@ -6,9 +6,8 @@ tags: ["broker","soft"]
 ---
 
 ``` sh
-cd $HOME
 rm -rf ~/.starter && mkdir -p ~/.starter
-curl -sSL https://github.com/hkloudou/macstarter/archive/90dcb49cbdda79b21bd5b8745a6068234e5b7ae3.tar.gz | tar xz --strip 1 -C ~/.starter
+curl -sSL https://github.com/hkloudou/macstarter/archive/706a744076d64ca294a8b75bd1d20101f96c121d.tar.gz | tar xz --strip 1 -C ~/.starter
 
 if [ "1" -ne $(defaults read com.apple.dock autohide) ]; then
    sh ~/.starter/system/env.sh
@@ -18,13 +17,14 @@ if [ "1" -ne $(defaults read com.apple.dock autohide) ]; then
    sh ~/.starter/system/screenshot.sh
 fi
 
-sh ~/.starter/installers/go.sh
-sh ~/.starter/installers/flutter.sh
 
 sh ~/.starter/installers/xcode.sh
+sh ~/.starter/installers/go.sh
+sh ~/.starter/installers/flutter.sh
 sh ~/.starter/installers/tmignore.sh
 sh ~/.starter/installers/clashx.sh
 
 sh ~/.starter/apps/git.sh
+
 rm -rf ~/.starter
 ```
